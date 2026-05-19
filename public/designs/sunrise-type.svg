@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#fffbeb"/>
+  <!-- Sun rays -->
+  <line x1="200" y1="240" x2="200" y2="80" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <line x1="200" y1="240" x2="100" y2="130" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <line x1="200" y1="240" x2="300" y2="130" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <line x1="200" y1="240" x2="70" y2="200" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <line x1="200" y1="240" x2="330" y2="200" stroke="#f59e0b" stroke-width="2" opacity="0.3"/>
+  <!-- Sun semicircle -->
+  <path d="M 100 240 A 100 100 0 0 1 300 240" fill="#fbbf24" opacity="0.9"/>
+  <!-- Horizon line -->
+  <line x1="60" y1="240" x2="340" y2="240" stroke="#92400e" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Typography -->
+  <text x="200" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#92400e" letter-spacing="6">RISE</text>
+  <text x="200" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#b45309" letter-spacing="5">EVERY · DAY</text>
+  <!-- Label -->
+  <text x="200" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="3">SUNRISE TYPE</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#fff1f2"/>
+  <!-- Stems -->
+  <path d="M 200 320 Q 200 270 195 230" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 160 320 Q 155 275 158 240" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 240 320 Q 244 275 242 240" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 130 310 Q 122 265 128 230" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 268 312 Q 278 265 272 232" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <path d="M 195 270 Q 170 260 165 245 Q 182 250 195 260" fill="#4ade80" opacity="0.8"/>
+  <path d="M 242 265 Q 262 252 268 238 Q 252 246 242 258" fill="#4ade80" opacity="0.8"/>
+  <!-- Center flower (daisy) -->
+  <circle cx="196" cy="210" r="12" fill="#fbbf24"/>
+  <ellipse cx="196" cy="186" rx="7" ry="14" fill="white" opacity="0.95"/>
+  <ellipse cx="196" cy="186" rx="7" ry="14" fill="white" opacity="0.95" transform="rotate(45 196 210)"/>
+  <ellipse cx="196" cy="186" rx="7" ry="14" fill="white" opacity="0.95" transform="rotate(90 196 210)"/>
+  <ellipse cx="196" cy="186" rx="7" ry="14" fill="white" opacity="0.95" transform="rotate(135 196 210)"/>
+  <!-- Left flower (pink) -->
+  <circle cx="158" cy="218" r="9" fill="#f43f5e"/>
+  <ellipse cx="158" cy="198" rx="6" ry="11" fill="#fda4af" opacity="0.9"/>
+  <ellipse cx="158" cy="198" rx="6" ry="11" fill="#fda4af" opacity="0.9" transform="rotate(60 158 218)"/>
+  <ellipse cx="158" cy="198" rx="6" ry="11" fill="#fda4af" opacity="0.9" transform="rotate(120 158 218)"/>
+  <!-- Right flower (lavender) -->
+  <circle cx="242" cy="216" r="9" fill="#a855f7"/>
+  <ellipse cx="242" cy="196" rx="6" ry="11" fill="#d8b4fe" opacity="0.9"/>
+  <ellipse cx="242" cy="196" rx="6" ry="11" fill="#d8b4fe" opacity="0.9" transform="rotate(60 242 216)"/>
+  <ellipse cx="242" cy="196" rx="6" ry="11" fill="#d8b4fe" opacity="0.9" transform="rotate(120 242 216)"/>
+  <!-- Small side flowers -->
+  <circle cx="128" cy="210" r="7" fill="#fb923c"/>
+  <ellipse cx="128" cy="195" rx="5" ry="9" fill="#fed7aa" opacity="0.9"/>
+  <ellipse cx="128" cy="195" rx="5" ry="9" fill="#fed7aa" opacity="0.9" transform="rotate(72 128 210)"/>
+  <ellipse cx="128" cy="195" rx="5" ry="9" fill="#fed7aa" opacity="0.9" transform="rotate(144 128 210)"/>
+  <circle cx="272" cy="212" r="7" fill="#ec4899"/>
+  <ellipse cx="272" cy="197" rx="5" ry="9" fill="#fbcfe8" opacity="0.9"/>
+  <ellipse cx="272" cy="197" rx="5" ry="9" fill="#fbcfe8" opacity="0.9" transform="rotate(72 272 212)"/>
+  <ellipse cx="272" cy="197" rx="5" ry="9" fill="#fbcfe8" opacity="0.9" transform="rotate(144 272 212)"/>
+  <!-- Label -->
+  <text x="200" y="358" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="3">WILDFLOWER</text>
+</svg>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const PRODUCTS = [
   {
@@ -8,6 +9,7 @@ const PRODUCTS = [
     tag: "Bestseller",
     desc: "Clean geometric wave on 180g premium cotton. Available in white, black, and stone.",
     color: "bg-emerald-50",
+    img: "/designs/minimal-wave.svg",
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
   },
   {
@@ -17,6 +19,7 @@ const PRODUCTS = [
     tag: "New",
     desc: "Bold grid pattern inspired by city blueprints. Crisp on white or charcoal.",
     color: "bg-sky-50",
+    img: "/designs/urban-grid.svg",
     sizes: ["S", "M", "L", "XL", "XXL"],
   },
   {
@@ -26,6 +29,7 @@ const PRODUCTS = [
     tag: "",
     desc: "Delicate leaf illustration. Sustainably printed with water-based inks.",
     color: "bg-lime-50",
+    img: "/designs/botanical.svg",
     sizes: ["XS", "S", "M", "L", "XL"],
   },
   {
@@ -35,6 +39,7 @@ const PRODUCTS = [
     tag: "",
     desc: "Typographic sunrise motif. Minimal, warm, and universally wearable.",
     color: "bg-amber-50",
+    img: "/designs/sunrise-type.svg",
     sizes: ["S", "M", "L", "XL", "XXL"],
   },
   {
@@ -44,6 +49,7 @@ const PRODUCTS = [
     tag: "Tech",
     desc: "PCB circuit board pattern for the technically inclined.",
     color: "bg-slate-50",
+    img: "/designs/circuit.svg",
     sizes: ["S", "M", "L", "XL"],
   },
   {
@@ -53,6 +59,7 @@ const PRODUCTS = [
     tag: "",
     desc: "Hand-drawn wildflower illustration in a classic bouquet arrangement.",
     color: "bg-rose-50",
+    img: "/designs/wildflower.svg",
     sizes: ["XS", "S", "M", "L", "XL"],
   },
 ];
@@ -76,12 +83,14 @@ export default function ShopPage() {
             key={p.id}
             className="rounded-2xl overflow-hidden border border-gray-100 hover:shadow-lg transition-shadow group"
           >
-            <div
-              className={`${p.color} h-60 flex items-center justify-center`}
-            >
-              <span className="text-3xl opacity-20 font-black uppercase tracking-widest text-gray-400 select-none px-4 text-center">
-                {p.name}
-              </span>
+            <div className={`${p.color} h-60 flex items-center justify-center overflow-hidden`}>
+              <Image
+                src={p.img}
+                alt={p.name}
+                width={240}
+                height={240}
+                className="object-contain h-52 w-52"
+              />
             </div>
             <div className="p-5">
               <div className="flex items-start justify-between mb-2">
